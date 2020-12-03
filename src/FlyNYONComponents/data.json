@@ -1,0 +1,142 @@
+
+{
+
+  "NavbarItem":{
+  "Item":[
+  {
+  "name":"Book A Flight"
+  },
+  {
+  "name":"Safety"
+  },
+  {
+  "name":"NYON SkyClub Membership"
+  },
+  {
+  "name":"Packges"
+  },
+  {
+  "name":"Focus Flights"
+  },
+  {
+  "name":"New York"
+  },
+  {
+  "name":"Blog"
+  },
+  {
+  "name":"FAQ's"
+  },
+  {
+  "name":"Testimonials"
+  },
+  {
+  "name":"About Us"
+  },
+  {
+  "name":"Press"
+  },
+  {
+  "name":"My Account",
+  "link":"/account"
+  },
+  {
+  "name":"Contact Us"
+  },
+  {
+  "name":"Helicopter Charter"
+  }
+  
+  ],
+  
+      "image":[
+          {
+          "url":"https://d33wubrfki0l68.cloudfront.net/99d08f49504e82b73e2941778464fb6847a62fe2/4906a/logo-foxtrot-icon.svg"
+      }
+  ]
+      
+  },
+
+  "ReservedItem":{
+      "reserved":[
+          {
+          "name":"Terms-Conditions"
+          },
+          {
+          "name":"Careers"
+          },
+          {
+          "name":"FAQs"
+          },
+          {
+          "name":"Privacy Policy"
+          }
+      ]
+  },
+
+  "CitySelection":{
+      "logo":[
+      {
+          "url":"/images/award-tripadvisor.png"
+      },
+      {
+          "url":"/images/award-safety-2017.png"
+      },
+      {
+          "url":"/images/award-bell-2019.png"
+      }
+        ]
+  },
+  "FlyNYONmedia":{
+      "logo":[
+      {
+          "url":"/images/logo-press-time.png"
+      },
+      {
+          "url":"/images/logo-press-buzzfeed.png"
+      },
+      {
+          "url":"/images/logo-press-cnn.png"
+      },
+      {
+          "url":"/images/logo-press-gq.png"
+      },
+      {
+          "url":"/images/logo-press-cbs.png"
+      }
+      
+      ],
+      "table":[
+        {
+          "heading":"PRICING",
+          "firstInfo":"Starting at $99",
+          "secondInfo":"Starting at $224"
+        },
+        {
+          "heading":"AVAILABILITY",
+          "firstInfo":"7-days a week",
+          "secondInfo":"5-days a week"
+        },
+        {
+          "heading":"THE FLIGHT",
+          "firstInfo":"Fully customizable flights",
+          "secondInfo":"Fixed and pre-determined routes4"
+        },
+        {
+          "heading":"DOORS ON/OFF",
+          "firstInfo":"Both options available",
+          "secondInfo":"Doors-on only"
+        },
+        {
+          "heading":"PRE-FLIGHT EXPERIENCE",
+          "firstInfo":"Passengers enjoy access to 10,000 sq ft. NYON Terminal equipped with state-of-the-art helicopter mock-up, cafe, lounge seating areas, and more",
+          "secondInfo":"Passengers await their departure in General Aviation Heliport"
+        },
+        {
+          "heading":"OPTIONAL ADD-ONS",
+          "firstInfo":"Camera rentals, weather insurance, ground transportation, and a variety of seasonal experience bundles",
+          "secondInfo":"No available add-ons"
+        }
+      ]
+  }
+}

@@ -1,0 +1,1548 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap');
+body{
+  font-family: 'Arial,Helvetica,sans-serif !important';
+}
+
+/* compaign-component */
+.compaign-banner{
+  position: relative;
+  width: 100%;
+}
+.compaign-banner video{
+  width: 100%;
+}
+.compaign-banner .absolute{
+  width: 100%;
+  position: fixed;
+}
+.compaign-banner .position{
+  position: absolute;
+  top: 0px;
+}
+
+
+/* header-component.js */
+/* Header class */
+.header{
+  width: 100%;
+  background: black;
+}
+.App-header{
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 138px;
+}
+.header .App-header .c-campaign-countdown__wrapper{
+  text-align: left;
+  max-width: 225px;
+}
+.header .time-zone #sales{
+  margin: 0px;
+  font-size: 18px;
+  padding-left: 14px;
+}
+.header .time-zone{
+  position: absolute;
+  float: left;
+  color: white;
+  top: 25px;
+  left: 57px;
+  border: 2px solid orange;
+  border-radius: 14px;
+  padding: 2px 15px;
+  font-weight: 400;
+}
+.header .time-zone p{
+  margin: 0px;
+  padding-bottom: 5px;
+  font-size: 21px
+}
+.header .time-zone #zone{
+  padding-right: 6px;
+  float: left;
+  font-size: 21px
+}
+.header .time-zone #zone p{
+  padding-bottom: 5px;
+}
+.header .time-zone #p-hours{
+  font-size: 11px;
+}
+
+.header .App-header .banner{
+  text-align: center;
+}
+.header .App-header .banner img{
+  width: 37.5%;
+  height: 138px;
+}
+/* Navbar component */
+.scrolled{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #272a2b;
+  overflow: hidden;
+  z-index: 999;
+}
+/* .menu-bar{
+  margin-bottom: 20px;
+} */
+.menu-bar img{
+  margin-bottom: 15px;
+  width: 12%;
+  padding-left: 68px;
+  cursor: pointer;
+  padding-top: 17px;
+}
+.MuiPaper-root.MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded {
+  width: 100%;
+  height: 100%;
+  left: 0px !important;
+  top: 0px !important;
+  background: linear-gradient(270deg,#252323,#252323 20%,rgba(37,35,35,.5));
+}
+
+.MuiMenu-paper {
+  max-height: 100% !important;
+}
+.MuiPopover-paper {
+  outline: 0; 
+  width: 100% !important;
+   max-width: 100% !important; 
+  overflow-y: auto;
+} 
+
+.menu-bar .fa{
+  font-size: 20px;
+  float: right;
+  margin-right: 55px;
+  padding: 3px 5px;
+  margin-top: 15px;
+  cursor: pointer;
+  color: #9a9a9a;
+}
+
+ .menu-list #span{
+  cursor: pointer;
+  padding-top: 0px;
+  font-weight: 100;
+  margin: 0px;
+  color: orange;
+  outline: none;
+  top: -14px;
+  right: 55px;
+  font-size: 50px;
+  font-family: system-ui;
+  position: fixed;
+}
+.menu-list{
+  text-align: right;
+  width: 96%;
+  outline: none;
+}
+.menu-list ul{
+  padding-top: 35px;
+  font-weight: 500;
+  font-size: 26px;
+  padding-right: 23px;
+}
+.menu-list ul li{
+ text-decoration: none;
+ list-style-type: none;
+ line-height: 2;
+}
+.menu-list ul li a{
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+ }
+.menu-list img{
+width: 3%;
+bottom: 15px;
+position: absolute;
+right: 45px;
+}
+ /* .menu-list ul li a  img{
+  padding-left: 12px;
+  max-width: 40px;
+ } */
+ .menu-list ul li a span{
+  color: #a8122c;
+ }
+.menu-list ul li a:hover{
+  border-bottom: 2px solid white;
+}
+/* city-selection component */
+.city-selection{
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+.city-selection .logo{
+  cursor: pointer;
+}
+.city-selection h1 {
+  width: 40%;
+  color: white;
+  font-family: Rift,Arial,Helvetica,sans-serif !important;
+  text-transform: uppercase;
+    font-size: 25px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.city-selection button{
+  background: #3d7cc9;
+  border-color: #3d7cc9;
+  color: #fff !important;
+  border-radius: 7px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all .4s ease;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 32px;
+  margin-bottom: 15px;
+}
+.city-selection button span{
+  font-size: 11px;
+}
+.city-selection button h2{
+  margin: 7px;
+  font-size: 20px;
+    color: white;
+}
+.city-selection #button{
+  background-color: #009569!important;
+  padding: 5px 16px !important;
+}
+.city-selection #button h2{
+  font-size: 17px !important;
+}
+.city-selection h4 a{
+  color: orange;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+}
+.city-selection .logo p{
+  font-size: 0.80rem;
+  max-width: 53%;
+  text-align: center;
+  margin: auto;
+  color: white;
+  padding-top: 10px;
+}
+.city-selection .selection{
+  margin-bottom: 50px;
+}
+.city-selection .selection h1{
+  font-size: 20px;
+  font-weight: 800;
+  font-family: RIFT;
+  font-style: italic;
+  padding-top: 15px;
+  line-height: 30px;
+}
+.city-selection .selection button{
+  margin-right: 15px;
+  background: none;
+  color: black;
+  font-size: 15px;
+}
+.city-selection .selection .product-card{
+  width: 100%;
+}
+.city-selection .selection .product-card .nyc-experience{
+  display: flex !important;
+  justify-content: center;
+
+}
+.city-selection .selection .product-card .NYC-product-card{
+  width: 25%;
+  margin-right: 35px;
+}
+.city-selection .selection .product-card .NYC-product-card .DOORS-img{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px !important;
+  cursor: pointer;
+}
+.city-selection .selection .product-card .NYC-product-card .DOORS-img img:hover{
+  opacity: 0.8;
+  color: #3d7cc9;
+}
+.city-selection .selection .product-card .NYC-product-card .DOORS-img img{
+  width: 100%;
+  height: 450px;
+  border-radius: 47px;
+}
+.city-selection .selection .product-card .NYC-Flight-ornament{
+  width: 25%;
+  cursor: pointer;
+  top: -16px;
+  left: -16px;
+  height: 85px;
+  position: absolute;
+  cursor: pointer;
+}
+.city-selection .selection .product-card .NYC-Flight-ornament img{
+  width: 100% !important;
+  height: auto !important;
+  border-radius: inherit !important;
+}
+.city-selection .selection .product-card .NYC-Flight{
+  position: absolute;
+  width: 100%;
+  top: 10px;
+  font-size: 12px;
+}
+.city-selection .selection .product-card #lights{
+  left: 20px;
+}
+.city-selection .selection .product-card .NYC-product-card .NYC-Flight h4{
+  font-size: 18px;
+  margin: 0px;
+  font-style: italic;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+.city-selection .selection .product-card .NYC-product-card .NYC-Flight p{
+  margin: 0px;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.city-selection .selection .product-card .NYC-product-card .NYC-Flight h3{
+  margin: 0px;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.city-selection .selection .product-card .NYC-product-card .NYC-Flight #nyc{
+  font-size: 18px;
+  -webkit-text-decoration-line: line-through;
+   text-decoration-line: line-through;
+}
+.city-selection .selection .NYC-product-card .btn{
+  width: 100%;
+  position: absolute;
+  left: 60px;
+  bottom: 45px;
+}
+.city-selection .selection .btn button{
+  background: #3d7cc9;
+  border-color: #3d7cc9;
+  color: #fff;
+  border-radius: 7px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all .4s ease;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 30px;
+  font-size: 12px;
+  margin-right: 10px;
+  float: left;
+}
+.city-selection .selection .btn .btn-green{
+  background-color: #009569!important;
+  padding: 7px 13px !important;
+  margin-left: 10px;
+}
+.city-selection .selection .btns{
+  width: 100%;
+  position: absolute;
+  left: 60px;
+  bottom: 45px;
+}
+.city-selection .selection .NYC-product-card .btns button{
+  background: #3d7cc9;
+  border-color: #3d7cc9;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all .4s ease;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 30px;
+  font-size: 12px;
+  margin-right: 10px;
+  float: left;
+}
+.city-selection .selection .btns .btns-green{
+  background-color: #009569!important;
+  padding: 7px 13px !important;
+  margin-left: 10px;
+}
+
+.show{
+  display: block !important;
+}
+
+.hide{
+  display: none !important;
+}
+.city-selection .selection #DOORS-BTN{
+  padding: 11px 13px !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+}
+.button-active {
+  border: 2px solid white !important;
+  border-radius: 19px !important;
+}
+/* FLYNYON MEDIA SECTION */
+.FlyNyon-media{
+  width: 100%;
+  opacity: 1.7;
+  padding-top: 40px;
+  text-align: center;
+  background: hsla(0,0%,100%,.8);
+}
+.FlyNyon-media .media-section{
+  border-bottom: 1px solid #6f7e84;
+  margin: auto 15px;
+}
+.FlyNyon-media .media-section h5{
+  font-family: Rift,Arial,Helvetica,sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+.FlyNyon-media .media-section a img{
+  padding-right: 22px;
+  width: 7%;
+}
+.FlyNyon-media .media-section h1{
+  color: #3d7cc9;
+  font-weight: 600;
+}
+.FlyNyon-media .media-section p{
+  width: 58%;
+    margin: 0 auto;
+  color: #6f7e84;
+}
+.FlyNyon-media .media-section button{
+  background: #5189cf;
+  border-color: #5189cf;
+  color: #fff !important;
+  border-radius: 7px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all .4s ease;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 32px;
+  padding-top: 5px;
+  margin-bottom: 15px;
+  margin-bottom: 60px;
+  margin-top: 8px;
+}
+.FlyNyon-media .media-section button span{
+  font-size: 10px;
+}
+.FlyNyon-media .media-section button h2{
+  margin: 7px;
+  font-size: 20px;
+    color: white;
+}
+/* FlyNYON section/NYON-family-section */
+.FlyNyon-media .NYON-family{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin: auto 15px;
+}
+.FlyNyon-media .NYON-family h1{
+  color: #3d7cc9;
+  font-weight: 600;
+  font-family: Rift,Arial,Helvetica,sans-serif;
+}
+.FlyNyon-media .NYON-family p{
+  color: #6f7e84;
+  margin-top: 25px;
+}
+.FlyNyon-media .NYON-family .OPTIONAL-ADD-ONS{
+  padding-bottom: 60px;
+  margin-top: 40px;
+  border-bottom: 1px solid #6f7e84;
+}
+.FlyNyon-media .NYON-family .OPTIONAL-ADD-ONS .container{
+  width: 100%;
+  max-width: 885px;
+  margin: 0 auto;
+}
+.FlyNyon-media .NYON-family .OPTIONAL-ADD-ONS .experience-category{
+  display: flex;
+}
+.FlyNyon-media .NYON-family .OPTIONAL-ADD-ONS .experience-category h3{
+  width: 33.3%;
+  color: #6f7e84;
+  border-bottom: 1px solid darkslategrey;
+  border-right: 1px solid darkslategrey;
+  padding: 35px;
+  font-size: 15px;
+  margin: 0px;
+  font-family: Rift,Arial,Helvetica,sans-serif;
+  font-weight: 600;
+}
+.FlyNyon-media .NYON-family .OPTIONAL-ADD-ONS .experience-category p{
+  width: 33.3%;
+  color: #6f7e84;
+  border-bottom: 1px solid darkslategrey;
+  border-right: 1px solid darkslategrey;
+  padding: 35px;
+  font-size: 17px;
+  margin: 0px;
+}
+.FlyNyon-media .NYON-family .OPTIONAL-ADD-ONS .experience-category #traditional{
+  border-right: none;
+}
+.FlyNyon-media .NYON-family .OPTIONAL-ADD-ONS .experience-category .rentals{
+  border-right: none;
+  border-bottom: none;
+}
+.FlyNyon-media .NYON-family .OPTIONAL-ADD-ONS .experience-category #rentals{
+  border-bottom: none;
+}
+
+.NYON-family .ultimate{
+  margin-top: 80px;
+  position: relative;
+}
+.NYON-family .ultimate .container{
+  max-width: 1010px;
+margin: 0 auto;
+}
+.NYON-family .ultimate .create-enduring .deeply{
+  width: 100%;
+  background: #A5B0B4;
+  height: 330px;
+}
+.NYON-family .ultimate .create-enduring{
+  position: relative;
+  display: flex;
+  text-align: none;
+}
+.NYON-family .ultimate .ultimate-helicopter img{
+  position: absolute;
+  bottom: 16px;
+  left: 25px;
+  width: 45%;
+  height: 334px;
+  -webkit-clip-path: polygon(0 0,80% 0,100% 100%,0 100%);
+    clip-path: polygon(0 0,80% 0,100% 100%,0 100%);
+}
+.NYON-family .ultimate .sweeping-view{
+  text-align: initial;
+  padding-left: 170px;
+}
+.NYON-family .ultimate .sweeping-view h1{
+  font-size: 32px;
+  line-height: 1.5;
+  margin: 0px;
+}
+.NYON-family .ultimate .sweeping-view p{
+  margin: 0px;
+  margin-bottom: 35px;
+  padding-top: 10px;
+  line-height: 1.4;
+}
+.NYON-family .ultimate .sweeping-view button{
+  background: #5189cf;
+  border-color: #5189cf;
+  color: #fff !important;
+  border-radius: 7px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all .4s ease;
+  outline: none;
+  cursor: pointer;
+  padding: 9px 32px;
+  padding-top: 5px;
+  margin-bottom: 15px;
+  margin-bottom: 60px;
+  margin-top: 8px;
+}
+.FlyNyon-media .ultimate .sweeping-view button span{
+  font-size: 10px;
+}
+.FlyNyon-media .ultimate .sweeping-view button h2{
+  margin: 0px;
+  margin-top: 5px;
+}
+/* All right reserved Flynyon-section */
+.FlyNyon-media .FlyNYON{
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #D5D9E1;
+  
+  padding: 28px 35px;
+
+}
+.FlyNyon-media .FlyNYON p{
+  color: #6f7e84;
+  padding-left: 30px;
+  margin: 0px;
+}
+.FlyNyon-media .FlyNYONe .Reserved-FlyNYON p{
+  margin: 0px;
+  color: #6f7e84;
+  float: left;
+}
+.FlyNyon-media .FlyNYON .Terms-Conditions{
+  width: 25%;
+}
+.FlyNyon-media .FlyNYON .Terms-Conditions ul{
+  margin: 0px;
+  font-weight: 600;
+  padding: 0px;
+  padding-left: 15px;
+}
+.FlyNyon-media .FlyNYON .Terms-Conditions ul li{
+list-style-type: none;
+padding-left: 15px;
+float: left;
+}
+.FlyNyon-media .FlyNYON .Terms-Conditions ul li a{
+  text-decoration: none;
+  color: #6f7e84;
+  }
+  .FlyNyon-media .FlyNYON .Terms-Conditions ul li a:hover{
+    color: #3d7cc9;
+    }
+  .FlyNyon-media .Reserved-FlyNYON{
+    margin-bottom: 50px;
+  }
+/* FOOTER-HOMEPAGE */
+.footer .footer-homepage{
+  color: white;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: #3D7CC9;
+  padding: 20px 70px;
+  font-size: 13px;
+  justify-content: space-between;
+  display: flex;
+}
+.footer .footer-homepage .footer-icons i{
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  padding-right: 16px;
+}
+.footer .footer-homepage .footer-icons i a:hover{
+  color: #3d7cc9;
+  }
+.footer .footer-homepage .footer-icons #youtube{
+  padding-right: 0px !important;
+}
+.footer .footer-homepage .footer-icons span{
+  font-size: 14px;
+  font-weight: 600;
+}
+.footer .footer-homepage p{
+  margin: 0px;
+  width: 20%;
+  padding-right: 125px;
+}
+.footer .footer-homepage p a{
+ font-weight: 600;
+ cursor: pointer;
+}
+.footer .comment-buttton{
+  background: #08A579;
+  border-radius: 50%;
+  padding: 8px;
+  position: fixed;
+  right: 30px;
+  bottom: 18px;
+}
+.footer .comment-buttton .fa{
+  border: none;
+  position: relative;
+  color: white;
+  font-size: 28px;
+  background: #08A579;
+  cursor: pointer;
+}
+.message-box {
+  border: 1px solid gainsboro;
+  background: white !important;
+  width: 23% !important;
+  text-align: center;
+  height: 80vh;
+  margin-bottom: 75px;
+  margin-top: 60px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: 35px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+.message-box h3{
+margin: 0px;
+border-radius: 9px;
+line-height: 1.5;
+padding: 13px;
+font-size: 14px;
+font-weight: 200;
+color: white;
+background-color: #08A579;
+}
+.message-box span{
+font-size: 11px;
+color: #A4DECE
+}
+.message-box input{
+width: 85%;
+padding: 7px 8px;
+margin-bottom: 6px;
+}
+.message-box #text-message{
+padding: 7px 8px 51px 8px ;
+width: 85%;
+}
+.message-box button{
+padding: 15px 90px;
+color: white;
+cursor: pointer;
+background-color: #08A579;
+border: none;
+margin-top: 4px;
+margin-bottom: 20px;
+border-radius: 4px;
+}
+#Item {
+position: fixed;
+right: 28px;
+bottom: 19px;
+color: white;
+margin: 0px;
+font-size: 21px;
+background-color: #08A579;
+border-radius: 50%;
+}
+.abc .MuiPaper-root.MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded {
+  background: transparent !important;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+/* BOOK-NOW COMPONENT CSS START */
+.book-now_navbar{
+text-align: left;
+}
+.book-now{
+  width: 100%;
+  text-align: center;
+  background-color: #1C242D;
+  color: white;
+  margin: 0 auto;
+  padding-bottom: 60px !important;
+}
+.book-now .flynyon-logo{
+  display: block;
+  max-width: 30%;
+  margin: auto;
+  padding: 2rem;
+}
+.book-now .description h3{
+  font-size: 40px;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 8px !important;
+  line-height: 1.2;
+}.book-now .description h1{
+  margin-bottom: .5rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-family: sans-serif;    
+  margin: 0;
+  padding-top: 8px;
+}
+.book-now .description #departs{
+  text-decoration: line-through;
+  margin-right: 12px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.book-now .description h3 span{
+  color: #ffbe0b;
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 14px;
+  text-decoration: none !important;
+  font-family: sans-serif; 
+}
+.book-now .description p{
+  font-family: sans-serif; 
+}
+.book-now .description p span{
+  font-size: 13px;
+  color: #ffbe0b;
+
+}
+.book-now button{
+  margin: 0 auto;
+  color: white;
+  width: 39%;
+  margin: 20px 10px;
+  width: 39%;
+  padding: 12px 0px;
+  border-radius: 7px;
+  margin: 20px 10px;
+  margin-bottom: 40px;
+  background: #285891;
+}
+.book-now button:hover{
+background-color: #09BD8B;
+}
+.book-now img{
+  width: 60%;
+}
+.book-now button h2{
+  margin: 0px;
+  padding-top: 10px;
+}
+.book-now .downtown p{
+text-align: center;
+font-size: 18px;
+width: 49%;
+margin: 0 auto;
+padding-top: 30px;
+}
+.book-now .downtown h3{
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 600;
+  margin-top: 20px;
+  line-height: 1.2;
+  font-family: sans-serif;
+  font-size: 35px;
+}
+.book-now .downtown .nyon-saftey{
+  width: 27%;
+  margin: 0 auto;
+  color: #09BD8B;
+}
+
+/* ACCOUNTS-SECTION START */
+.bckground{
+  width: 100%;
+  position: fixed;
+}
+.bckground img{
+  width: 100%;
+}
+.accounts{
+    position: absolute;
+    top: 0px;
+}
+.accounts .sign-up{
+  width: 25%;
+  padding-bottom: 25px;
+  background: white;
+  margin: 0 auto;
+  color: black;
+}
+.accounts .sign-up .button{
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightslategray;
+}
+.accounts .sign-up .button button{
+  padding: 13px 18px;
+  font-size: 21px;
+  /* background: #f9f9f9; */
+    border: none;
+     background: #fff;
+  /*  border-right: 1px solid #d6d6d6;
+    border-bottom: 1px solid #fff; */
+    color: #6b6666;
+}
+.accounts .Login{
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.accounts .Register{
+  width: 85%;
+  margin: 0 auto;
+}
+.accounts input{
+  padding: 12px 5px;
+  width: 98%;
+  margin-bottom: 22px;
+  border: 1px solid #d5d9e1;
+  color: #6b6666;
+
+  border-radius: 5px;
+}
+.accounts input:hover{
+  border-color: orange;
+}
+.accounts ::placeholder{
+  font-size: 18px;
+}
+.accounts .Login button{
+  width: 100%;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #09BD8B;
+  border: 1px solid;
+  font-size: 18px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.accounts .Login a{
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 auto;
+  color: #09BD8B;
+}
+.accounts .Login a:hover{
+  color: orange;
+}
+.accounts .Register button{
+  width: 100%;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #09BD8B;
+  border: none;
+  font-size: 18px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.error{
+  color: red;
+}
+
+/* MEDIA QUERIES SECTION ==> START */
+
+
+/* CITY-SELECTION COMPONENT ===> SECTION */
+
+/* MEDIA QUERY 1266PX */
+@media (max-width: 1266px){ 
+
+  /* city-selerction section */
+  .city-selection h1 {
+    width: 52% !important;
+  }
+  }
+
+/* MEDIA QUERY 1024PX */
+@media (max-width: 1024px){ 
+
+  .compaign-banner
+
+  /* NAVBAR SECTION */
+  .menu-bar img {
+    width: 17%;
+  }
+  .menu-bar .fa {
+    font-size: 30px;
+  }
+
+  /* CITY-SELECTION == SECTION */
+  .city-selection h1 {
+    width: 64% !important;
+  }
+  .city-selection .logo p {
+    max-width: 77%;
+  }
+  .city-selection .selection .product-card .NYC-product-card {
+    width: 35%;
+}
+.city-selection .selection .NYC-product-card .btn {
+  left: 37px;
+}
+.city-selection .selection .btns {
+  left: 37px;
+}
+/* FlyNYON-media SECTION */
+.FlyNyon-media .media-section a img {
+  width: 10%;
+}
+.FlyNyon-media .media-section p {
+  margin: 10px auto;
+  width: 80%;
+}
+.FlyNyon-media .NYON-family p{
+  width: 80%;
+  margin: 0 auto;
+}
+.NYON-family .ultimate .create-enduring .deeply {
+    margin-top: 35px;
+}
+.NYON-family .ultimate .ultimate-helicopter img {
+  bottom: 40px;
+}
+.NYON-family .ultimate .sweeping-view p {
+  width: 90%;
+  font-size: 18px;
+  margin-left: 0px !important;
+}
+.NYON-family .ultimate .sweeping-view button{
+  padding: 13px 40px;
+}
+.FlyNyon-media .FlyNYON .Terms-Conditions {
+  width: 35%;
+}
+.footer .footer-homepage p {
+  width: 25%;
+  }
+}
+  /* MEDIA QUERY 991PX */
+
+  @media (max-width: 991px){ 
+   /* header-section */
+   .header{
+  padding-bottom: 1px;
+   }
+   .header .App-header .banner img {
+    width: 75%;
+  }
+  .header .time-zone{
+    width: 23%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .header .time-zone {
+    position: unset !important;
+    float: unset !important;
+}
+
+    /* city-selection == section */
+   .city-selection .selection .product-card .nyc-experience {
+    display: unset !important;
+    text-align: -webkit-center;
+}
+.city-selection .selection .product-card .NYC-product-card .DOORS-img img {
+  height: 400px;
+}
+.city-selection .selection .NYC-product-card .btn {
+  width: 78%;
+}
+.city-selection .selection .btns {
+  width: 80%;
+}
+.city-selection .selection .btn button {
+  padding: 14px 59px;
+    }
+ .city-selection .selection .btn .btn-green {
+  padding: 7px 39px !important;
+  margin: 0px;
+  } 
+  .city-selection .selection .NYC-product-card .btns button {
+    padding: 14px 59px;
+  }
+  .city-selection .selection .btns .btns-green {
+    padding: 7px 39px !important;
+}
+/* BOOK-NOW - SECTION START */
+.city-selection .selection .btns .btns-green {
+  margin-left: 0px;
+}
+
+  }
+         /*MEDIA QUERY 769PX  */
+
+ @media (max-width: 769px){ 
+
+  /* COMPAIGN-BNNER SECTION START */
+  .compaign-banner video {
+    width: auto;
+}
+
+     /* NAVBAR SECTION */
+  .menu-bar img {
+    width: 25%;
+  }
+  .menu-bar .fa {
+    font-size: 33px;
+  }
+
+ /* city-selection == section */
+.city-selection h1 {
+  width: 69% !important;
+}
+.city-selection .logo p {
+  max-width: 89%;
+}
+.city-selection .selection .btn button {
+  padding: 14px 50px;
+}
+.city-selection .selection .btn .btn-green {
+  padding: 7px 30px !important;
+}
+.city-selection .selection .product-card .NYC-product-card {
+  width: 40% !important;
+}
+.city-selection .selection .NYC-product-card .btn {
+  left: 66px;
+}
+.city-selection .selection .btns {
+  left: 66px;
+}
+/* FlyNYON-media SECTION */
+.FlyNyon-media .media-section a img {
+  width: 11%;
+}
+.FlyNyon-media .media-section h1 {
+  margin: 40px 0px;
+  font-weight: 700;
+  font-family: sans-serif;
+  font-size: 28px;
+}
+.FlyNyon-media .media-section p {
+  width: 60%;
+}
+
+.FlyNyon-media .media-section button {
+  padding: 10px 40px;
+}
+.FlyNyon-media .NYON-family p{
+  width: 83%;
+  margin: 0 auto;
+}
+.FlyNyon-media .NYON-family .OPTIONAL-ADD-ONS .container {
+  max-width: 685px;
+}
+.FlyNyon-media .NYON-family .OPTIONAL-ADD-ONS .experience-category h3 {
+  padding: 20px 10px;
+  font-size: 13px;
+}
+.FlyNyon-media .NYON-family .OPTIONAL-ADD-ONS .experience-category p {
+  padding: 20px 10px;
+}
+.NYON-family .ultimate .create-enduring {
+  position: relative;
+  display: block;
+}
+.NYON-family .ultimate .create-enduring .deeply {
+  width: 70%;
+  height: 420px;
+  background-color: #A5B0B4;
+  margin-left: 13px;
+}
+.NYON-family .ultimate .create-enduring .ultimate-helicopter img{
+ width: 90%;
+ height: 56%;
+ position: absolute;
+ top: -20px;
+ left: 45px;
+ overflow: hidden;
+}
+.NYON-family .ultimate .sweeping-view {
+  text-align: initial;
+  padding-left: 45px;
+  padding-top: 10px;
+}
+.NYON-family .ultimate .sweeping-view p {
+  width: 95%;
+}
+.FlyNyon-media .FlyNYON {
+  font-size: 13px;
+  display: block;
+  padding: 15px 35px;
+}
+.FlyNyon-media .FlyNYON p {
+  width: 28%;
+  margin: 0 auto;
+}
+.FlyNyon-media .Reserved-FlyNYON {
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+.FlyNyon-media .FlyNYON .Terms-Conditions {
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid white;
+  padding: 15px 0px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+.FlyNyon-media .FlyNYON .Terms-Conditions ul {
+  width: 50%;
+  margin: 0 auto;
+  font-weight: 800;
+  padding: 0px;
+}
+
+/* Footer-section */
+
+.footer .footer-homepage {
+  color: white;
+  position: unset;
+  display: block;
+  width: 100%;
+  background-color: unset;
+  padding: 0px;
+}
+.footer .footer-homepage .footer-icons{
+  background-color: #D5D9E1;
+  width: 100%;
+  padding-top: 9px;
+  height: 95px;
+  text-align: center;
+  font-size: -8px;
+}
+.footer .footer-homepage .footer-icons i {
+  font-size: 20px;
+  color: #6f7e84;
+}
+.footer .footer-homepage .footer-icons span {
+  font-size: 20px;
+  color: #6f7e84;
+}
+.footer .footer-homepage p {
+  width: 100%;
+  margin: 0px;
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  padding-top: 19px;
+ padding-right: 0px;
+  background: #3D7CC9;
+  position: fixed;
+  display: block;
+  bottom: 0px;
+  width: 100%;
+  overflow: hidden;
+  height: 35px;
+}
+
+/* BOOK-NOW - SECTION START */
+.book-now img{
+  width: 60%;
+}
+.book-now .downtown .nyon-saftey {
+  width: 45%;
+}
+}
+
+/* MEDIA QUERY 576PX */
+@media (max-width: 576px){
+
+  /* COMPAIGN-BANNER AECTION START */
+  .compaign-banner video {
+    width: auto;
+}
+
+/* header section */
+.header .App-header .banner img{
+  width: 100%;
+}
+.header .time-zone{
+  display: none !important;
+}
+.menu-bar img {
+  width: 50%;
+  padding-left: 30px;
+}
+
+/* nav-bar section start */
+.menu-bar .fa {
+  margin-right: 20px;
+}
+/* city-selection section start */
+.city-selection h1 {
+  width: 75% !important;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.city-selection button {
+  padding: 4px 32px;
+}
+.city-selection #button {
+  padding: 2px 16px;
+}
+.city-selection .logo img{
+  width: 24%;
+}
+.city-selection .selection h1 {
+  font-size: 18px;
+}
+.city-selection .selection .product-card .NYC-product-card {
+  width: 70% !important;
+  margin-right: 0px;
+}
+.city-selection .selection .product-card .NYC-Flight-ornament {
+  width: 35%;
+}
+.city-selection .selection .product-card .NYC-Flight {
+  padding-left: 20px;
+}
+.city-selection .selection .NYC-product-card .btns button {
+  padding: 14px 54px;
+}
+.city-selection .selection .btns .btns-green {
+  padding: 7px 35px !important;
+}
+.city-selection .selection .NYC-product-card .btn {
+  left: 65px;
+}
+.city-selection .selection .NYC-product-card .btns {
+  left: 60px;
+}
+/* FlyNYON-media section start */
+.FlyNyon-media .media-section h5 {
+  font-size: 18px;
+}
+.FlyNyon-media .media-section a img {
+  width: 15%;
+  padding-right: 18px;
+}
+.FlyNyon-media .media-section h1 {
+  width: 97%;
+}
+.FlyNyon-media .media-section p {
+  width: 75%;
+}
+.FlyNyon-media .media-section button {
+  padding: 5px 42px;
+}
+.FlyNyon-media .NYON-family .OPTIONAL-ADD-ONS {
+  width: 85%;
+  margin:  0 auto !important;
+  margin-top: 40px !important;
+}
+.FlyNyon-media .NYON-family .OPTIONAL-ADD-ONS .experience-category h3 {
+  padding: 0px 0px !important;
+  padding-top: 20px !important;
+  font-size: 12px;
+}
+.FlyNyon-media .NYON-family .OPTIONAL-ADD-ONS .experience-category p {
+  padding: 15px 0px;
+  font-size: 13px;
+}
+.NYON-family .ultimate .create-enduring .deeply {
+  width: 70%;
+  height: 210px;
+}
+.NYON-family .ultimate .create-enduring .ultimate-helicopter img {
+  width: 83%;
+  height: 39%;
+  left: 39px;
+}
+.NYON-family .ultimate .sweeping-view h1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.NYON-family .ultimate .sweeping-view {
+  padding-left: 30px;
+}
+.NYON-family .ultimate .sweeping-view p {
+  width: 92%;
+}
+.NYON-family .ultimate .sweeping-view button {
+  padding: 10px 42px;
+  margin-bottom:  10px;
+}
+.FlyNyon-media .FlyNYON p {
+  width: 55%;
+  margin: 0 auto;
+}
+.FlyNyon-media .FlyNYON .Terms-Conditions ul {
+  width: 95%;
+}
+/* footer section start */
+.footer .footer-homepage .footer-icons {
+  padding-top: 4px;
+  height: 88px;
+}
+/* BOOK-NOW ==> SECTION START */
+.book-now .flynyon-logo img{
+  width: 100%;
+}
+.book-now .description h3 {
+  font-size: 30px;
+}
+.book-now .description h1 {
+  font-size: 1.7rem;
+}
+.book-now .description #voucher{
+  width: 94%;
+  font-size: 14px;
+  margin:  0 auto;
+}
+.book-now button {
+  color: white;
+  width: 75%;
+  padding: 5px 50px;
+}
+.book-now img{
+  width: 93%;
+}
+.book-now .downtown p {
+  font-size: 19px;
+  width: 90%;
+}
+.book-now .downtown h3 {
+  width: 100%;
+  font-size: 24px;
+}
+.book-now .downtown .nyon-saftey {
+  width: 80%;
+}
+}
+
+/* MEDIA QUERY 420PX */
+@media (max-width: 420px){
+
+/* .compaign-banner .absolute{
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: auto;
+} */
+
+
+/* city-selection section start */
+.city-selection h1 {
+  width: 90% !important;
+}
+.city-selection .selection h1 {
+  font-size: 16px;
+}
+.city-selection .selection .product-card .NYC-product-card .NYC-Flight h4 {
+  font-size: 16px;
+}
+.city-selection .selection button {
+ margin-right: 0px;
+}
+.city-selection .selection .NYC-product-card .btn {
+  left: 48px;
+}
+.city-selection .selection .NYC-product-card .btns {
+  left: 46px;
+}
+
+/* FlyNYON-media SECTION START */
+.FlyNyon-media .media-section a img {
+  width: 14%;
+}
+.FlyNyon-media .media-section h1 {
+  font-size: 23px;
+  margin: 25px 0px;
+}
+.FlyNyon-media .FlyNYON p {
+  width: 65%;
+}
+.FlyNyon-media .FlyNYON .Terms-Conditions ul {
+  width: 100%;
+}
+.FlyNyon-media .FlyNYON .Terms-Conditions ul li {
+  padding-left: 10px;
+}
+
+/* BOOK-NOW SECTION START */
+.book-now .downtown .nyon-saftey {
+  width: 90%;
+}
+}
+
+/* MEDIA QUERY 320PX */
+@media (max-width: 320px){
+
+/* city-selection section */
+
+.city-selection .selection h1 {
+  font-size: 13px;
+}
+.city-selection .selection .product-card .NYC-product-card {
+  width: 83% !important;
+}
+.city-selection .selection .product-card .NYC-Flight-ornament {
+  width: 32%;
+}
+.city-selection .selection .NYC-product-card .btn {
+  left: 51px;
+}
+.city-selection .selection .NYC-product-card .btns {
+  left: 49px;
+}
+
+/* FlyNYON-media section */
+
+.FlyNyon-media .media-section h5 {
+  margin: 0px;
+}
+.FlyNyon-media .media-section a img {
+  width: 22%;
+  padding-top: 15px;
+}
+.FlyNyon-media .media-section h1 {
+  font-size: 20px;
+}
+.FlyNyon-media .media-section p {
+  width: 90%;
+  font-size: 19px;
+}
+.FlyNyon-media .NYON-family p {
+  width: 90%;
+  font-size: 19px;
+}
+.NYON-family .ultimate .create-enduring .deeply {
+  width: 70%;
+  height: 240px;
+}
+.NYON-family .ultimate .sweeping-view h1 {
+  font-size: 23px;
+}
+.FlyNyon-media .FlyNYON p {
+  width: 80%;
+}
+.FlyNyon-media .FlyNYON .Terms-Conditions ul li {
+  padding-left: 10px;
+  font-size: 10px;
+}
+
+/* footer section */
+
+.footer .footer-homepage .footer-icons i {
+  font-size: 15px;
+}
+.footer .footer-homepage .footer-icons span {
+  font-size: 18px;
+}
+.footer .footer-homepage p {
+  font-size: 11px;
+}
+
+/* BOOK-NOW SECTION Start */
+
+.book-now button {
+  width: 85%;
+}
+}
