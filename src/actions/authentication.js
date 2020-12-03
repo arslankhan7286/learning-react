@@ -15,6 +15,7 @@ export const login = (data) => {
         }
     } else {
         console.log('error');
+        console.log('testing')
     }
 }
 
