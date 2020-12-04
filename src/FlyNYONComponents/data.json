@@ -41,6 +41,10 @@
   "link":"/account"
   },
   {
+    "name":"Dog's",
+    "link":"/api_data"
+    },
+  {
   "name":"Contact Us"
   },
   {
@@ -138,5 +142,213 @@
           "secondInfo":"No available add-ons"
         }
       ]
-  }
+  },
+  "Selection":{
+      "option":[
+        {
+        "name":"affenpinscher"
+        },
+        {
+        "name":"african"
+        },
+        {
+        "name":"airedale"
+        },
+        {
+        "name":"akita"
+        },
+        {
+        "name":"appenzeller"
+        },
+        {
+          "name":"shepherd australian"
+          },
+          {
+          "name":"basenji"
+          },
+          {
+          "name":"beagle"
+          },
+          {
+          "name":"bluetick"
+          },
+          {
+          "name":"borzoi"
+          },
+          {
+          "name":"bouvier"
+          },
+          {
+          "name":"boxer"
+          },
+          {
+          "name":"brabancon"
+          },
+          {
+          "name":"briard"
+          },
+          {
+          "name":"norwegian buhund"
+          },
+          {
+          "name":"boston bulldog"
+          },
+          {
+          "name":"english bulldog"
+          },
+          {
+          "name":"french bulldog"
+          },
+          {
+          "name":"staffordshire bullterrier"
+          },
+          {
+          "name":"cairn"
+          },
+          {
+          "name":"australian cattledog"
+          },
+          {
+          "name":"chihuahua"
+          },
+          {
+          "name":"chow"
+          },
+          {
+          "name":"clumber"
+          },
+          {
+          "name":"cockapoo"
+          },
+          {
+          "name":"border collie"
+          },
+          {
+          "name":"coonhound"
+          },
+          {
+          "name":"cardigan corgi"
+          },
+          {
+          "name":"cotondetulear"
+          },
+          {
+          "name":"dachshund"
+          },
+          {
+          "name":"dalmatian"
+          },
+          {
+          "name":"great dane"
+          },
+          {
+          "name":"scottish deerhound"
+          },
+          {
+          "name":"dhole"
+          },
+          {
+          "name":"dingo"
+          },
+          {
+          "name":"doberman"
+          },
+          {
+          "name":"norwegian elkhound"
+          },
+          {
+          "name":"entlebucher"
+          },
+          {
+          "name":"eskimo"
+          },
+          {
+          "name":"bichon frise"
+          },
+          {
+          "name":"germanshepherd"
+          },
+          {
+          "name":"irish terrier"
+          },
+          {
+          "name":"irish wolfhound"
+          },
+          {
+          "name":"whippet"
+          },
+          {
+          "name":"weimaraner"
+          },
+          {
+          "name":"spanish waterdog"
+          },
+          {
+          "name":"vizsla"
+          },
+          {
+          "name":"yorkshire terrier"
+          },
+          {
+          "name":"wheaten terrier"
+          },
+          {
+          "name":"westhighland terrier"
+          },
+          {
+          "name":"toy terrier"
+          },
+          {
+          "name":"tibetan terrier"
+          },
+          {
+          "name":"silky terrier"
+          },
+          {
+          "name":"sealyham terrier"
+          },
+          {
+          "name":"scottish terrier"
+          },
+          {
+          "name":"russell terrier"
+          },
+          {
+          "name":"patterdale terrier"
+          },
+          {
+          "name":"norwich terrier"
+          },
+          {
+          "name":"norfolk terrier"
+          },
+          {
+          "name":"lakeland terrier"
+          },
+          {
+          "name":"kerryblue terrier"
+          },
+          {
+          "name":"irish terrier"
+          },
+          {
+          "name":"fox terrier"
+          },
+          {
+          "name":"dandie terrier"
+          },
+          {
+          "name":"border terrier"
+          },
+          {
+          "name":"bedlington terrier"
+          },
+          {
+          "name":"australian terrier"
+          },
+          {
+          "name":"american terrier"
+          }
+      ]
+}
 }

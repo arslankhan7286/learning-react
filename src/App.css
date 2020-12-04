@@ -939,6 +939,43 @@ padding-top: 30px;
   color: red;
 }
 
+/* DOGS SECTION START IN CSS */
+.dogs{
+  width: 100%;
+  padding-top: 60px;
+}
+.dogs .container{
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.dogs .click{
+  text-align: center;
+}
+.dogs select {
+  width: 20%;
+  font-size: 17px;
+  padding: 7px 0px;
+  margin-left: 14px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+ .dogs button {
+   font-weight: bold;
+   padding: 9px 18px;
+  background: cadetblue;
+  color: honeydew;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.dogs img {
+  width: 32%;
+  height: 300px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+
 /* MEDIA QUERIES SECTION ==> START */
 
 

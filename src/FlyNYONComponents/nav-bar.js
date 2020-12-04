@@ -54,7 +54,7 @@ export default function SimpleMenu() {
           </MenuItem>
           <ul>
             { Data.NavbarItem.Item.map((item, i)=> {
-              return <li key={i}><a href='/account'>{item.name}</a></li>
+              return <li key={i}><a href={item.link}>{item.name}</a></li>
             })}
             </ul>
             {
