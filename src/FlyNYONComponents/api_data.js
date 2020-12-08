@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import Data from "./data.json"
 import {getDogs } from '../apiCalls/basicCalls'
 import { connect } from "react-redux";
+import Header from "./header";
+import SimpleMenu from "./nav-bar";
+import FooterMenu from "./footer";
 class Dogs extends Component {
   constructor(props) {
     super(props);
@@ -20,8 +23,12 @@ class Dogs extends Component {
     }
   }
   render() {
-    const { dogs } = this.props;
+    const { dogs , message } = this.props;
+    console.log("dogs length:", dogs.length)
     return (
+      <div className="background test-class">
+        <Header />
+        <SimpleMenu />
       <div className="dogs">
         <div className="container">
           <div className="click">
@@ -41,7 +48,8 @@ class Dogs extends Component {
             <button onClick={() => this.onSearch()}> Search </button>
             <br />
           </div>
-          {dogs.length 
+          <div>
+          {dogs && dogs.length >0
             ? dogs.map((value, id) => (
                 <img
                   key={id}
@@ -49,8 +57,11 @@ class Dogs extends Component {
                   src={value}
                 />
               ))
-            : "The Item you are looking cannot be found"}
+            : (<p>{message? message:''}</p>)}
+            </div>
         </div>
+      </div>
+      <FooterMenu />
       </div>
     );
   }
@@ -59,6 +70,7 @@ const mapDispatchToProps = dispatch =>({
     getDogssss : (res)=> dispatch(getDogs(res))
 })
 const stateToProps = (state) => ({
-    dogs : state?.store.dogs || []
+    dogs : state?.store.dogs || [],
+    message:state?.store.message || ''
 })
 export default connect(stateToProps,mapDispatchToProps)(Dogs) ;

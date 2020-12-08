@@ -12,7 +12,7 @@ class Header extends Component {
       <div className="header">
         <header className="App-header">
           <div className="banner">
-            <img src="/images/Screen_Shot_2020-11-13_at_6.15.36_PM.png" />
+            <img src="/images/Screen_Shot_2020-12-07_at_4.23.22_PM.png" />
           </div>
         </header>
         <div className="time-zone">

@@ -1,6 +1,7 @@
 import { DOGS } from "../Actions/action";
 let iState = {
-  dogs: []
+  dogs: [],
+  message:""
 };
 const reducer = (state = iState, action) => {
   switch (action.type) {
@@ -8,6 +9,12 @@ const reducer = (state = iState, action) => {
       return {
         ...state,
         dogs: action.payload
+      };
+      case 'dogs_fetch_error':
+      return {
+        ...state,
+        dogs:[],
+        message: action.payload
       };
     default: return state
   }

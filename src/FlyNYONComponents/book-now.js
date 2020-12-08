@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import FooterMenu from "./footer";
 import SimpleModal from "./footer";
 import Header from "./header";
 import SimpleMenu from "./nav-bar";
@@ -16,8 +17,10 @@ class BookNow extends Component {
   }
   render() {
     return (
-        <div>
       <div className="book-now">
+        <Header />
+        <SimpleMenu />
+          <div className="book-now-item">
           <div className='panel'>
         <div className="flynyon-logo">
           <img src="https://d33wubrfki0l68.cloudfront.net/e38c45434ce2966355c12edc27b98f81243cf428/cad66/_nuxt/img/logo-flynyon.6bda6ef.svg" />
@@ -91,7 +94,8 @@ class BookNow extends Component {
         <p><strong>DYNAMIC PRICING:</strong> Certain time slots may be priced higher due to surging demand. If you are redeeming a gift card, you will be subject to these surge fares when you schedule your flight. To avoid higher fares, we recommend booking a few days in advance.</p>
       </div>
       </div>
-      <SimpleModal />
+      <FooterMenu />
+      {/* <SimpleModal /> */}
       </div>
     );
   }
