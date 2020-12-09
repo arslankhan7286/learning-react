@@ -32,7 +32,6 @@ class Accounts extends Component {
       let data=this.state.registerValues;
       data[e.target.name]=e.target.value;
       this.setState({data});
-    //   debugger;
   }
 
   handleLoginValues = (e) => {

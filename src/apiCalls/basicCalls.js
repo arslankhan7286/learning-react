@@ -1,7 +1,7 @@
 import {dogs_fetch_success, dogs_fetch_error } from '../Actions/action'
 export const getDogs =  (res) =>async  dispatch => {
   // dispatch getting dogs action for loader or to notify component that the call is m=being made
-   fetch(
+  return fetch(
     `https://dog.ceo/api/breed/${res}/images/random/10`
   )
     .then((response) => response.json())
@@ -12,7 +12,7 @@ export const getDogs =  (res) =>async  dispatch => {
           } else if(item.status === "error"){
             dispatch(dogs_fetch_error(item.message))
           }
-          console.log(item);
+          return item;
     });
 };
  

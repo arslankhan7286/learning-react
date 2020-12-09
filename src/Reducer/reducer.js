@@ -1,4 +1,3 @@
-import { DOGS } from "../Actions/action";
 let iState = {
   dogs: [],
   message:""

@@ -56,7 +56,7 @@ body{
 .header .time-zone p{
   margin: 0px;
   padding-bottom: 5px;
-  font-size: 21px
+  font-size: 28px
 }
 .header .time-zone #zone{
   padding-right: 6px;
@@ -955,15 +955,22 @@ padding-top: 30px;
 
 /* DOGS SECTION START IN CSS */
 .background{
+  position: relative;
   width: 100%;
   background: url(/src/styles/images/background-full-new-york-city.jpg) no-repeat;
   background-position: center;
   background-size: cover;
   display: inline-block;
-  height: 1700px;
+  height: auto;
+}
+.background .container{
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 .dogs{
   width: 100%;
+  height: 200vh;;
 }
 .dogs .container{
   width: 100%;
@@ -994,7 +1001,7 @@ border-color: #6FCCDB;
 .dogs select option:hover{
 color: orange;
 }
- .dogs button {
+ .dogs .click button {
    width: 16.5%;
    font-weight: bold;
    padding: 20px;
@@ -1009,24 +1016,58 @@ color: orange;
   border-radius: 10px;
   outline: none;
 }
-.dogs button:hover{
+.dogs .click button:hover{
   border-color: #6FCCDB;
   background: #6FCCDB;
   }
 .dogs img {
-  width: 31%;
+  width: 100%;
   height: 330px;
-  padding-left: 17px;
-  padding-bottom: 13px;
 }
 .dogs p{
   text-align: center;
   color: red;
   font-style: italic;
-  font-size: 22px;
+  font-size: 30px;
 }
-
-
+.background .img_item{
+position: relative;
+width: 31%;
+float: left;
+padding-bottom: 13px;
+padding-right: 20px;
+}
+.background .img_item button{
+  position: absolute;
+  bottom: 22px;
+  right: 30px;
+  color: white;
+  font-size: 20px;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.isFav{
+  color: red;
+}
+.heart_clr{
+  color: red;
+}
+.background .favouriteItem{
+  width: 100%;
+  height: 200vh;
+}
+.favouriteItem h1{
+  font-size: 55px;
+  text-align: center;
+  color: #6FCCDB;
+  margin-top: 0px;
+}
+.background .favouriteItem .img_item img{
+  width: 100%;
+  height: 330px
+}
 /* MEDIA QUERIES SECTION ==> START */
 
 
