@@ -3,7 +3,7 @@ import SimpleMenu from "./nav-bar";
 import SimpleModal from "./footer";
 import Header from "./header";
 
-import {login, register} from '../actions/authentication';
+import {login, register} from '../Actions/authentication';
 
 
 class Accounts extends Component {
@@ -32,7 +32,6 @@ class Accounts extends Component {
       let data=this.state.registerValues;
       data[e.target.name]=e.target.value;
       this.setState({data});
-    //   debugger;
   }
 
   handleLoginValues = (e) => {
